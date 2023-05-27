@@ -1,9 +1,15 @@
+import React from 'react';
 import './App.css';
+import Footer from './Commoncomp/Footer';
+import Header from './Commoncomp/Header';
+import Nav from './Commoncomp/Nav';
 
 function App() {
   return (
     <div className="App">
-      <h1>OPM Portfolio</h1>
+      <Header/>
+      <Nav/>
+      <Footer/>
     </div>
   );
 }
