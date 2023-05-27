@@ -1,0 +1,30 @@
+.Nav{
+    background-color: steelblue;
+    position: sticky;
+    top: 0;
+}
+
+.navigation{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation li {
+    /* padding: 10px; */
+    margin: 10px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.navigation li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: black;
+}
+.navigation li a:hover {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+    background-color: black;
+}
